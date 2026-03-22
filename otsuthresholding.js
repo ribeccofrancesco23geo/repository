@@ -68,7 +68,7 @@ var histogramSalineWater = SWIRED.select('B11').reduceRegion({
 });
 print(histogramSalineWater, 'Media e Varianza Istogramma SWIRED');
 
-
+// Codice metodo di Otsu da: Clinton, N. (2017). Otsu’s method for image segmentation. https://medium.com/google-earth/otsus-method-for-image-segmentation-f5c48f405e
 // Return the DN that maximizes interclass variance.
 
 var otsu = function(histogramSalineWater) {
